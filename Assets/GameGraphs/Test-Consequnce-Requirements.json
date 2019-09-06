@@ -1,0 +1,936 @@
+{
+	"nodes": [
+		{
+			"id": "1",
+			"Name": "Start Node",
+			"NodeType": "Start",
+			"Description": "Where the game starts",
+			"Conversation": [
+				{
+					"id": "1",
+					"Speaker": "narrator",
+					"Text": "Hello World"
+				}
+			],
+			"x": -18.188597679138184,
+			"y": -666.8063468933105,
+			"Actions": [
+				{
+					"id": "5acf9c80-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "Left path",
+					"Description": "Left path",
+					"EndAt": "572cac30-460f-11e9-ba01-45cf7e1f0816",
+					"Consequences": [
+						{
+							"id": "64719590-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "82b41350-453a-11e9-9884-f115108a154b",
+								"name": "test enum",
+								"defaultValue": 0,
+								"type": "enum",
+								"enumValues": [
+									"left",
+									"center",
+									"right"
+								]
+							},
+							"Operator": "Set",
+							"Value": "left"
+						}
+					]
+				},
+				{
+					"id": "5b3b0880-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "Center Path",
+					"Description": "Center Path",
+					"EndAt": "577a08e0-460f-11e9-ba01-45cf7e1f0816",
+					"Consequences": [
+						{
+							"id": "7dcf4460-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "82b41350-453a-11e9-9884-f115108a154b",
+								"name": "test enum",
+								"defaultValue": 0,
+								"type": "enum",
+								"enumValues": [
+									"left",
+									"center",
+									"right"
+								]
+							},
+							"Operator": "Set",
+							"Value": "center"
+						}
+					]
+				},
+				{
+					"id": "5bb800b0-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "Right Path",
+					"Description": "Right Path",
+					"EndAt": "57b69cb0-460f-11e9-ba01-45cf7e1f0816",
+					"Consequences": [
+						{
+							"id": "805ec8e0-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "82b41350-453a-11e9-9884-f115108a154b",
+								"name": "test enum",
+								"defaultValue": 0,
+								"type": "enum",
+								"enumValues": [
+									"left",
+									"center",
+									"right"
+								]
+							},
+							"Operator": "Set",
+							"Value": "right"
+						}
+					]
+				}
+			],
+			"title": "Start Node",
+			"type": "Start"
+		},
+		{
+			"id": "2",
+			"Name": "End Node",
+			"NodeType": "End",
+			"Description": "Where the game ends",
+			"Conversation": [
+				{
+					"id": "1",
+					"Speaker": "narrator",
+					"Text": "Goodbye World"
+				}
+			],
+			"x": -14.786293029785156,
+			"y": 4271.625732421875,
+			"Actions": [],
+			"title": "End Node",
+			"type": "End"
+		},
+		{
+			"id": "572cac30-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "LEft Path",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -367.6109619140625,
+			"y": -338.21990966796875,
+			"Actions": [
+				{
+					"id": "5c441410-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "continue",
+					"EndAt": "586fb380-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "60df64f0-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You choose left"
+				}
+			],
+			"title": "LEft Path",
+			"type": "Dialogue"
+		},
+		{
+			"id": "577a08e0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "Center Path",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -0.8017809391021729,
+			"y": -354.5788269042969,
+			"Actions": [
+				{
+					"id": "5cb413f0-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "continue",
+					"EndAt": "586fb380-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "653eee80-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You choose center"
+				}
+			],
+			"title": "Center Path",
+			"type": "Dialogue"
+		},
+		{
+			"id": "57b69cb0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "Right Path",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 335.64324951171875,
+			"y": -367.1661682128906,
+			"Actions": [
+				{
+					"id": "5d5954a0-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "continue",
+					"EndAt": "586fb380-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "68504d30-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You choose right"
+				}
+			],
+			"title": "Right Path",
+			"type": "Dialogue"
+		},
+		{
+			"id": "586fb380-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "New Node",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -17.698777198791504,
+			"y": 121.90502166748047,
+			"Actions": [
+				{
+					"id": "88e9fac0-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "Left Choosen",
+					"Description": "Left Choosen",
+					"EndAt": "5957f0a0-460f-11e9-ba01-45cf7e1f0816",
+					"Requirements": [
+						{
+							"id": "974d2560-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "82b41350-453a-11e9-9884-f115108a154b",
+								"name": "test enum",
+								"defaultValue": 0,
+								"type": "enum",
+								"enumValues": [
+									"left",
+									"center",
+									"right"
+								]
+							},
+							"Operator": "EqualTo",
+							"Value": "left"
+						}
+					]
+				},
+				{
+					"id": "89804750-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "Center Choosen",
+					"Description": "Center Choosen",
+					"EndAt": "598f7b60-460f-11e9-ba01-45cf7e1f0816",
+					"Requirements": [
+						{
+							"id": "a422f940-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "82b41350-453a-11e9-9884-f115108a154b",
+								"name": "test enum",
+								"defaultValue": 0,
+								"type": "enum",
+								"enumValues": [
+									"left",
+									"center",
+									"right"
+								]
+							},
+							"Operator": "EqualTo",
+							"Value": "center"
+						}
+					]
+				},
+				{
+					"id": "8a120000-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "Right Choosen",
+					"Description": "Right Choosen",
+					"EndAt": "59d2ed00-460f-11e9-ba01-45cf7e1f0816",
+					"Requirements": [
+						{
+							"id": "a70335d0-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "82b41350-453a-11e9-9884-f115108a154b",
+								"name": "test enum",
+								"defaultValue": 0,
+								"type": "enum",
+								"enumValues": [
+									"left",
+									"center",
+									"right"
+								]
+							},
+							"Operator": "EqualTo",
+							"Value": "right"
+						}
+					]
+				}
+			],
+			"Conversation": [
+				{
+					"id": "6f66b960-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "Now see your consequences"
+				}
+			],
+			"title": "New Node",
+			"type": "Dialogue"
+		},
+		{
+			"id": "5957f0a0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "Left Choosen",
+			"Description": "You Choose the left path and now had this available",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -444.756591796875,
+			"y": 599.42431640625,
+			"Actions": [
+				{
+					"id": "aac10120-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "continue",
+					"EndAt": "5a3160b0-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "746b0e70-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You Choose the left path and now had this available"
+				}
+			],
+			"title": "Left Choosen",
+			"type": "Dialogue"
+		},
+		{
+			"id": "598f7b60-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "Center Choosen",
+			"Description": "You Choose the center path and now had this available",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -68.85889434814453,
+			"y": 617.323486328125,
+			"Actions": [
+				{
+					"id": "ab6caa70-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "continue",
+					"EndAt": "5a3160b0-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "98d25ca0-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You Choose the center path and now had this available"
+				}
+			],
+			"title": "Center Choosen",
+			"type": "Dialogue"
+		},
+		{
+			"id": "59d2ed00-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "Right Choosen",
+			"Description": "You Choose the right path and now had this available",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 322.5138854980469,
+			"y": 605.1212768554688,
+			"Actions": [
+				{
+					"id": "ac40c350-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "continue",
+					"EndAt": "5a3160b0-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "9a72c630-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You Choose the right path and now had this available"
+				}
+			],
+			"title": "Right Choosen",
+			"type": "Dialogue"
+		},
+		{
+			"id": "5a3160b0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "New Node",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -52.691253662109375,
+			"y": 1084.45361328125,
+			"Actions": [
+				{
+					"id": "b5a60180-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "True choice",
+					"Description": "True choice",
+					"EndAt": "b119c2a0-460f-11e9-ba01-45cf7e1f0816",
+					"Consequences": [
+						{
+							"id": "c3be6780-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7ecfd440-453a-11e9-9884-f115108a154b",
+								"name": "test bool",
+								"defaultValue": 0,
+								"type": "bool",
+								"enumValues": []
+							},
+							"Operator": "Set",
+							"Value": "true"
+						}
+					]
+				},
+				{
+					"id": "b64e0150-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "False Choice",
+					"Description": "False Choice",
+					"EndAt": "b1539750-460f-11e9-ba01-45cf7e1f0816",
+					"Consequences": [
+						{
+							"id": "c613f040-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7ecfd440-453a-11e9-9884-f115108a154b",
+								"name": "test bool",
+								"defaultValue": 0,
+								"type": "bool",
+								"enumValues": []
+							},
+							"Operator": "Set",
+							"Value": "false"
+						}
+					]
+				}
+			],
+			"Conversation": [
+				{
+					"id": "a6d84c10-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "Now make a boolean choice"
+				}
+			],
+			"title": "New Node",
+			"type": "Dialogue"
+		},
+		{
+			"id": "b119c2a0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "True Choice",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -345.6009216308594,
+			"y": 1378.8466796875,
+			"Actions": [
+				{
+					"id": "b6e697d0-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "continue",
+					"EndAt": "b19f9470-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "ab32f3a0-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You choose true"
+				}
+			],
+			"title": "True Choice",
+			"type": "Dialogue"
+		},
+		{
+			"id": "b1539750-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "False Choice",
+			"Description": "You choose false",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 259.5291290283203,
+			"y": 1318.70947265625,
+			"Actions": [
+				{
+					"id": "b77d0b70-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "continue",
+					"EndAt": "b19f9470-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "10a1b640-48d8-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You choose false"
+				}
+			],
+			"title": "False Choice",
+			"type": "Dialogue"
+		},
+		{
+			"id": "b19f9470-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "Bool Consequence",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -44.91520309448242,
+			"y": 1660.739501953125,
+			"Actions": [
+				{
+					"id": "cb993520-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "True Choosen",
+					"Description": "True Choosen",
+					"EndAt": "b46e1dc0-460f-11e9-ba01-45cf7e1f0816",
+					"Requirements": [
+						{
+							"id": "de934d00-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7ecfd440-453a-11e9-9884-f115108a154b",
+								"name": "test bool",
+								"defaultValue": 0,
+								"type": "bool",
+								"enumValues": []
+							},
+							"Operator": "EqualTo",
+							"Value": "true"
+						}
+					]
+				},
+				{
+					"id": "cc3c2be0-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "False Choosen",
+					"Description": "False Choosen",
+					"EndAt": "b49750a0-460f-11e9-ba01-45cf7e1f0816",
+					"Requirements": [
+						{
+							"id": "e2fc9a90-460f-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7ecfd440-453a-11e9-9884-f115108a154b",
+								"name": "test bool",
+								"defaultValue": 0,
+								"type": "bool",
+								"enumValues": []
+							},
+							"Operator": "EqualTo",
+							"Value": "false"
+						}
+					]
+				}
+			],
+			"Conversation": [
+				{
+					"id": "c74d9f90-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "Now see boolean consequnces"
+				}
+			],
+			"title": "Bool Consequence",
+			"type": "Dialogue"
+		},
+		{
+			"id": "b46e1dc0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "True choosen",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -315.81573486328125,
+			"y": 2017.803955078125,
+			"Actions": [
+				{
+					"id": "cce208d0-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "b4deb9e0-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "cc169950-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "You choose true"
+				}
+			],
+			"title": "True choosen",
+			"type": "Dialogue"
+		},
+		{
+			"id": "b49750a0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "False Choosen",
+			"Description": "you choose false",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 259.52911376953125,
+			"y": 2036.5968017578125,
+			"Actions": [
+				{
+					"id": "cd671750-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "b4deb9e0-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "cf4a7420-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "you choose false"
+				}
+			],
+			"title": "False Choosen",
+			"type": "Dialogue"
+		},
+		{
+			"id": "b4deb9e0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "New Node",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -26.12234878540039,
+			"y": 2461.3154296875,
+			"Actions": [
+				{
+					"id": "fafa4430-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "1",
+					"Description": "1",
+					"EndAt": "f88af1e0-460f-11e9-ba01-45cf7e1f0816",
+					"Consequences": [
+						{
+							"id": "0106ba70-4610-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7b6c5df0-453a-11e9-9884-f115108a154b",
+								"name": "Test value",
+								"defaultValue": "0",
+								"type": "num",
+								"enumValues": []
+							},
+							"Operator": "Set",
+							"Value": "1"
+						}
+					]
+				},
+				{
+					"id": "fb840da0-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "2",
+					"Description": "2",
+					"EndAt": "f8d8ead0-460f-11e9-ba01-45cf7e1f0816",
+					"Consequences": [
+						{
+							"id": "0176ba50-4610-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7b6c5df0-453a-11e9-9884-f115108a154b",
+								"name": "Test value",
+								"defaultValue": "0",
+								"type": "num",
+								"enumValues": []
+							},
+							"Operator": "Set",
+							"Value": "2"
+						}
+					]
+				},
+				{
+					"id": "fc1a3320-460f-11e9-ba01-45cf7e1f0816",
+					"Name": "3",
+					"Description": "3",
+					"EndAt": "f9141f10-460f-11e9-ba01-45cf7e1f0816",
+					"Consequences": [
+						{
+							"id": "0224d4a0-4610-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7b6c5df0-453a-11e9-9884-f115108a154b",
+								"name": "Test value",
+								"defaultValue": "0",
+								"type": "num",
+								"enumValues": []
+							},
+							"Operator": "Add",
+							"Value": "3"
+						}
+					]
+				}
+			],
+			"Conversation": [
+				{
+					"id": "d2de7050-48be-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "Now test number consequnces"
+				}
+			],
+			"title": "New Node",
+			"type": "Dialogue"
+		},
+		{
+			"id": "f88af1e0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "1",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -435.8066711425781,
+			"y": 2807.10400390625,
+			"Actions": [
+				{
+					"id": "065e3890-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "f9a93320-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "61746710-48c0-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "you choose 1"
+				}
+			],
+			"title": "1",
+			"type": "Dialogue"
+		},
+		{
+			"id": "f8d8ead0-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "2",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -11.371402263641357,
+			"y": 2810.862548828125,
+			"Actions": [
+				{
+					"id": "06d4c820-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "f9a93320-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "5e9d2b30-48c0-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "you choose 2"
+				}
+			],
+			"title": "2",
+			"type": "Dialogue"
+		},
+		{
+			"id": "f9141f10-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "3",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 424.9062805175781,
+			"y": 2795.828125,
+			"Actions": [
+				{
+					"id": "079be8b0-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "f9a93320-460f-11e9-ba01-45cf7e1f0816"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "6462ad60-48c0-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "you choose 3"
+				}
+			],
+			"title": "3",
+			"type": "Dialogue"
+		},
+		{
+			"id": "f9a93320-460f-11e9-ba01-45cf7e1f0816",
+			"Name": "New Node",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -3.570918560028076,
+			"y": 3239.339599609375,
+			"Actions": [
+				{
+					"id": "0ca7b7d0-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "1",
+					"Description": "1",
+					"EndAt": "09df7010-4610-11e9-ba01-45cf7e1f0816",
+					"Consequences": [],
+					"Requirements": [
+						{
+							"id": "231858d0-4610-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7b6c5df0-453a-11e9-9884-f115108a154b",
+								"name": "Test value",
+								"defaultValue": "0",
+								"type": "num",
+								"enumValues": []
+							},
+							"Operator": "LessThan",
+							"Value": "2"
+						}
+					]
+				},
+				{
+					"id": "0d374da0-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "2",
+					"Description": "2",
+					"EndAt": "09764e00-4610-11e9-ba01-45cf7e1f0816",
+					"Requirements": [
+						{
+							"id": "26151e10-4610-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7b6c5df0-453a-11e9-9884-f115108a154b",
+								"name": "Test value",
+								"defaultValue": "0",
+								"type": "num",
+								"enumValues": []
+							},
+							"Operator": "EqualTo",
+							"Value": "2"
+						}
+					]
+				},
+				{
+					"id": "0dbcaa40-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "3",
+					"Description": "3",
+					"EndAt": "0a2e7a70-4610-11e9-ba01-45cf7e1f0816",
+					"Requirements": [
+						{
+							"id": "27b141e0-4610-11e9-ba01-45cf7e1f0816",
+							"State": {
+								"id": "7b6c5df0-453a-11e9-9884-f115108a154b",
+								"name": "Test value",
+								"defaultValue": "0",
+								"type": "num",
+								"enumValues": []
+							},
+							"Operator": "GreaterThan",
+							"Value": "2"
+						}
+					]
+				}
+			],
+			"Conversation": [
+				{
+					"id": "667b2d20-48c0-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "Now see number consequences"
+				}
+			],
+			"title": "New Node",
+			"type": "Dialogue"
+		},
+		{
+			"id": "09764e00-4610-11e9-ba01-45cf7e1f0816",
+			"Name": "2",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -14.84663200378418,
+			"y": 3773.05712890625,
+			"Actions": [
+				{
+					"id": "0f177f50-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "2"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "6df0f760-48c0-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "you choose 2"
+				}
+			],
+			"title": "2",
+			"type": "Dialogue"
+		},
+		{
+			"id": "09df7010-4610-11e9-ba01-45cf7e1f0816",
+			"Name": "1",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -432.0481262207031,
+			"y": 3705.40283203125,
+			"Actions": [
+				{
+					"id": "0e6ff4b0-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "2"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "6b346f70-48c0-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "you choose 1"
+				}
+			],
+			"title": "1",
+			"type": "Dialogue"
+		},
+		{
+			"id": "0a2e7a70-4610-11e9-ba01-45cf7e1f0816",
+			"Name": "3",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 398.5962829589844,
+			"y": 3724.1953125,
+			"Actions": [
+				{
+					"id": "0fbdd170-4610-11e9-ba01-45cf7e1f0816",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "2"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "708d4d20-48c0-11e9-91f4-15c937f6ad5a",
+					"Speaker": "narrator",
+					"Text": "you choose 3"
+				}
+			],
+			"title": "3",
+			"type": "Dialogue"
+		}
+	],
+	"characters": [
+		{
+			"id": "narrator",
+			"Name": "Narrator",
+			"Description": "Narrator for the story"
+		}
+	],
+	"gameState": [
+		{
+			"id": "7b6c5df0-453a-11e9-9884-f115108a154b",
+			"name": "Test value",
+			"defaultValue": "0",
+			"type": "num",
+			"enumValues": []
+		},
+		{
+			"id": "7ecfd440-453a-11e9-9884-f115108a154b",
+			"name": "test bool",
+			"defaultValue": 0,
+			"type": "bool",
+			"enumValues": []
+		},
+		{
+			"id": "82b41350-453a-11e9-9884-f115108a154b",
+			"name": "test enum",
+			"defaultValue": 0,
+			"type": "enum",
+			"enumValues": [
+				"left",
+				"center",
+				"right"
+			]
+		}
+	]
+}

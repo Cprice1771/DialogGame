@@ -1,0 +1,834 @@
+{
+	"nodes": [
+		{
+			"id": "1",
+			"Name": "Start Node",
+			"NodeType": "Start",
+			"Description": "Where the game starts",
+			"Conversation": [
+				{
+					"id": "1",
+					"Speaker": "narrator",
+					"Text": "Your head spins and you take a moment to lean against a wall to still your turning gut. The street is empty. The dressmakers sign groans as a strong breeze pushes past you, dirt and sand rising off the ground"
+				},
+				{
+					"id": "9ab57240-0788-11e9-a69b-65fbc9bca2cb",
+					"Speaker": "narrator",
+					"Text": "You grumble before pushing off the wall and heading toward the door that will lead to your small workplace, and past it, the area you’ve decided to call home."
+				},
+				{
+					"id": "9af699f0-0788-11e9-a69b-65fbc9bca2cb",
+					"Speaker": "narrator",
+					"Text": "You reach the door and push your way inside. It’s dark, too dark to make out much of anything past the outline of a door along the back wall."
+				}
+			],
+			"x": 45.742613792419434,
+			"y": -508.742431640625,
+			"Actions": [
+				{
+					"id": "c6df3650-ae3f-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "db5a6ff0-ae3f-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "Start Node",
+			"type": "Start"
+		},
+		{
+			"id": "2",
+			"Name": "End Node",
+			"NodeType": "End",
+			"Description": "Where the game ends",
+			"Conversation": [
+				{
+					"id": "1",
+					"Speaker": "narrator",
+					"Text": "You walk home. You stayed later at the tavern than you should have, and had a few more spiced ales than you wanted to. But the girl at the bar had been charming, taking your coin from you and refilling your glass before you could protest."
+				},
+				{
+					"id": "bda6d480-ae3f-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You turn the corner. The street is empty at this time of night. Your business is housed on a nice street—nicer than the likes of you deserves. You got lucky there. Lord Hessin owed you a pretty serious favor for finding his kidnapped daughter and you made it count."
+				},
+				{
+					"id": "c1d4edd0-ae3f-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Not that it helped bring you new jobs like you’d hoped. You’re still struggling to pay your rent, and only scraping by thanks to Lord Hessin waving your taxes. Soon enough his graciousness will end and you’ll be left vacating the only place in the whole damned city of Tescina you can call your own"
+				}
+			],
+			"x": -21.958006620407104,
+			"y": 2332.8099365234375,
+			"Actions": [],
+			"title": "End Node",
+			"type": "End"
+		},
+		{
+			"id": "db5a6ff0-ae3f-11e8-8ee7-85824360fe06",
+			"Name": "d3",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 48.634618282318115,
+			"y": -261.9433116912842,
+			"Actions": [
+				{
+					"id": "fd454c70-ae3f-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "f5b71830-ae3f-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "eb8fe990-ae3f-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Where is that stupid lumen that priestess gave you three years ago? You’d considered selling it, but upsetting the twin gods of the suns doesn’t sound like a smart plan. No one, not even you at your drunkest, would chance upsetting Ix and Xa’s wrath. Combustion did not sound like pleasant way to die"
+				},
+				{
+					"id": "ee195390-ae3f-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You stumble into the chair you keep to the left. “Dark bastard,” you hiss to yourself."
+				},
+				{
+					"id": "f0743380-ae3f-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“I wouldn’t call out Resmin’s name on a bare night like tonight,” a female voice says from the shadows to your left. “I’d wait until the moon was out to call out his name the way you are.”"
+				}
+			],
+			"title": "d3",
+			"type": "Dialogue"
+		},
+		{
+			"id": "f5b71830-ae3f-11e8-8ee7-85824360fe06",
+			"Name": "d4",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 54.505056381225586,
+			"y": -51.07619571685791,
+			"Actions": [
+				{
+					"id": "0bb632b0-ae40-11e8-8ee7-85824360fe06",
+					"Name": "You’re a Kaara",
+					"Description": "Positive",
+					"EndAt": "1df90880-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "9d5c6f50-ae44-11e8-8ee7-85824360fe06",
+					"Name": "You’re one of them",
+					"Description": "Neutral",
+					"EndAt": "97b54a90-ae44-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "1036e690-ae45-11e8-8ee7-85824360fe06",
+					"Name": "You're a witch",
+					"Description": "evil",
+					"EndAt": "f40f9070-ae44-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "feb3f7a0-ae3f-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You straighten. You were not expecting company. How did she even get in here? You locked the door before you left, at least you thought you did. You scratch your head in thought. Light spills through the room, illuminating the woman and the chair she sits in. Her legs are crossed and her hands hold a ball of white-gold light—light that does not emanate from the stone you’d been thinking about earlier, but from energy the woman is manipulating."
+				}
+			],
+			"title": "d4",
+			"type": "Dialogue"
+		},
+		{
+			"id": "1df90880-ae40-11e8-8ee7-85824360fe06",
+			"Name": "Positve Response",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -323.1519012451172,
+			"y": 179.09840393066406,
+			"Actions": [
+				{
+					"id": "3ce2da00-ae40-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "3b9f8490-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "238f3d50-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“You’re a Kaara,” you say, glad the more honest word for a witch leaves your lips. You can’t help of thinking the term witch when you see the glow of their magic—years working under the previous King makes it impossible. He wasn’t a fan of the Kaara, blaming them for the massacre that caused the War of Three."
+				},
+				{
+					"id": "298c2330-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You don’t blame the Kaara for much of anything besides the high price for rare herbs in market, but that doesn’t mean you don’t still think the term witch when you see one. "
+				},
+				{
+					"id": "2d429b80-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Good thing you’re setting this conversation off on the right foot, rather than the wrong. "
+				}
+			],
+			"title": "Positve Response",
+			"type": "Dialogue"
+		},
+		{
+			"id": "3b9f8490-ae40-11e8-8ee7-85824360fe06",
+			"Name": "P1",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -323.34423828125,
+			"y": 399.9408874511719,
+			"Actions": [
+				{
+					"id": "71bc0e90-ae40-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "6c4cc2b0-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "5c8eea10-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“I am,” the woman says, nodding. “Do you have a means to fill this room with light?”\n",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "63112c90-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You scramble past her, stumbling further into the room until you reach your desk. The lumen stone you’d been thinking about earlier lies under a piece of parchment you fish it out, whispering the word to set it glowing."
+				},
+				{
+					"id": "65e88f80-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Thank you,” the woman says as she drops her hands and lets her magic disappear. “I’m not in much of a mood to use my magic.” ",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "P1",
+			"type": "Dialogue"
+		},
+		{
+			"id": "6c4cc2b0-ae40-11e8-8ee7-85824360fe06",
+			"Name": "P2",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -308.37481689453125,
+			"y": 630.1690979003906,
+			"Actions": [
+				{
+					"id": "de704600-ae40-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "943e7020-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "76ddfdc0-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She frowns as she says this, and stares at you for a moment, her eyes glazing over. She might be looking at you, but she isn’t seeing a thing. "
+				},
+				{
+					"id": "77457220-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She’s young. At least five years younger then you, but probably more. No lines mark the soft flesh of her face and her cheeks hold a beautiful hint of pink. She’s a gorgeous woman, with her curling blond hair, her peachy skin, and her purple-blue eyes. She scowls, her brow wrinkling, and her mouth twists down into a frown."
+				},
+				{
+					"id": "77c24340-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Beautiful when she’s pleased, frightening when she’s not."
+				},
+				{
+					"id": "81207c90-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“I’m sorry,” she says quietly. “Today hasn’t been a good day.”",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "85dd1a40-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Well,” you say as you step around your desk and fall into your seat. “Why don’t you tell me what I can help you with.”",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "P2",
+			"type": "Dialogue"
+		},
+		{
+			"id": "943e7020-ae40-11e8-8ee7-85824360fe06",
+			"Name": "Ending 1",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 22.439111709594727,
+			"y": 831.8743286132812,
+			"Actions": [
+				{
+					"id": "ddbbea20-ae40-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "cf52f320-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "98317c40-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“My roommate is dead,” the woman says. You were expecting an introduction, preferably a name, maybe even a hand-shake. You were not expecting her to bring up someone’s death.",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "9cd1df60-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Hold on,” you say, raising your hand. “Slow down.”",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "a1155570-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She pauses, coming over to stand before your desk. She  glances the parchments spread across it, not that you think she’d understand any of it. Most of the papers are just notes to yourself, written in shorthand, or numbers of how much you owe, and how much you have."
+				}
+			],
+			"title": "Ending 1",
+			"type": "Dialogue"
+		},
+		{
+			"id": "cf52f320-ae40-11e8-8ee7-85824360fe06",
+			"Name": "Ending 3",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 13.900393009185791,
+			"y": 1057.7113037109375,
+			"Actions": [
+				{
+					"id": "1f661090-ae41-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "051faf70-ae41-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "fa6ede70-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“What’s your name?” you ask, determined to get at least this out of her. You’re tempted to ask how much she’s willing to pay, but bringing up coin in such a way is never a good idea. You’ll have to wait to ask her at a more appropriate time.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "fd6e3bc0-ae40-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Shira,” she answers.",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "00153fe0-ae41-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“So your roommate is dead,” you say. You pull open a \ndrawer in your desk and find a stick of dried Tuni plant—it will help cut through the alcohol still running through your system and stabilize you.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "0285f1c0-ae41-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "If Shira is about to give you a murder investigation, you’d better be ready to see a dead body, and smell one.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "Ending 3",
+			"type": "Dialogue"
+		},
+		{
+			"id": "051faf70-ae41-11e8-8ee7-85824360fe06",
+			"Name": "Ending 4",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 10.712257385253906,
+			"y": 1262.24169921875,
+			"Actions": [
+				{
+					"id": "1968c010-ae42-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "ffbc7c10-ae41-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "f96c6d20-ae41-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“And you already went to the peacekeepers?” you ask, raising as brow. That’s what any normal person would do. The peacekeepers handle all the standard investigations in the city. Not you. You’re a last resort. You’re the thing people come to when they either want to keep the peacekeepers out of it, the peacekeepers won’t take the time to help someone, or when someone is guilty, and hopes you might prove to the peacekeepers otherwise.\n",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "fd2ca970-ae41-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "That last one never works out well."
+				}
+			],
+			"title": "Ending 4",
+			"type": "Dialogue"
+		},
+		{
+			"id": "ffbc7c10-ae41-11e8-8ee7-85824360fe06",
+			"Name": "Ch1-E-5",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 8.031597137451172,
+			"y": 1485.21630859375,
+			"Actions": [
+				{
+					"id": "59171680-ae42-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "1d7547a0-ae42-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "0d4c9f40-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“No,” she says. “They’ll blame me. I didn’t do it,” she says before you can even ask. She must see your expression and knows its one of doubt. She shakes her head, turning away from you so you can’t see her face. “I came home and she was dead. They’ll blame me.” She’s talking more to herself now.",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "105b65e0-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You wish you could see her face. There’s always a chance she’s putting on a show for you, because she’s hoping you’ll fight for her because she appears to be a helpless girl."
+				},
+				{
+					"id": "10df8a00-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You aren’t sure how you feel about it. You’ll wait to make judgments until you learn more."
+				}
+			],
+			"title": "Ch1-E-5",
+			"type": "Dialogue"
+		},
+		{
+			"id": "1d7547a0-ae42-11e8-8ee7-85824360fe06",
+			"Name": "Ch1-E-6",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 5.670604944229126,
+			"y": 1690.5347900390625,
+			"Actions": [
+				{
+					"id": "97b9f060-ae42-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "793151b0-ae42-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "22ea11c0-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She turns back around and faces you. “I need you to look at her. To find proof I didn’t do it.”"
+				},
+				{
+					"id": "235bbf50-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Why would the peacekeepers think you did it?” you ask.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "239daa50-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Because we’ve been fighting. Peacekeepers broke us apart a week ago when we fought.”",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "2d697280-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Over what?” you ask.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "52fa73a0-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "But she doesn’t answer and you don’t press her. It often \ntakes time for clients to open up with you. You’ll wait, and she’ll tell you what you need to know soon enough, especially if she wants your help."
+				}
+			],
+			"title": "Ch1-E-6",
+			"type": "Dialogue"
+		},
+		{
+			"id": "793151b0-ae42-11e8-8ee7-85824360fe06",
+			"Name": "Ch1-E-7",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -9.62668627500534,
+			"y": 1900.449951171875,
+			"Actions": [
+				{
+					"id": "b6d07730-ae42-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "994c9e50-ae42-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "84145640-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“The peacekeepers were called by a neighbor when we brought our magic into it. I left for a trip and only just got back-” she lets the rest remain unsaid.",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "8479ced0-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Until you found your roommate dead,” you say, finishing her statement off.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "84e058d0-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She nods."
+				},
+				{
+					"id": "85261460-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Well, then just show the peacekeepers proof of your travels, whatever documentation you have, or show them to someone who saw you leave or come, and you’ll be in the all clear.” This doesn’t seem like a case to you at all. Just a scared woman, needing for someone to assure her she’s in the clear.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "9493aa20-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You were really hoping for a case, a real case, one you could earn some coin for."
+				}
+			],
+			"title": "Ch1-E-7",
+			"type": "Dialogue"
+		},
+		{
+			"id": "994c9e50-ae42-11e8-8ee7-85824360fe06",
+			"Name": "Ch1-E-8",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -13.403144836425781,
+			"y": 2120.74951171875,
+			"Actions": [
+				{
+					"id": "b7834c70-ae42-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "2"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "a49bd230-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Sighing, you lean back in your chair."
+				},
+				{
+					"id": "a4f67550-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“I don’t have proof,” she says. She leans forward on the desk, and you sit back to put more space between you. “I was on a trip. No one knows where I went. No one saw me come or go. I’ll pay you ten gold Pios if you take this case, and find whoever it was that did this.”",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "a548db10-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Even if that someone is you,” you say unable to stop yourself.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "aee8b140-ae42-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She smiles, but it isn’t a real smile, its one that looks like a predator warning off a prey. All teeth and power, no lip or charm. “Sure,” she says as she pushes off the table and stands straight. “Let me take you to the body.”",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "Ch1-E-8",
+			"type": "Dialogue"
+		},
+		{
+			"id": "97b54a90-ae44-11e8-8ee7-85824360fe06",
+			"Name": "Nuetral",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 49.3100700378418,
+			"y": 171.17218017578125,
+			"Actions": [
+				{
+					"id": "d5a7e740-ae44-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "c220f8b0-ae44-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "b3290820-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“You’re one of them,” you say, your drunk tongue almost getting the best of you. You wanted to call her a witch, but thought better of it at the last second. That term had negative connotations ever since the War of Three. No one wanted to be connected the massacre that happened a hundred years ago, especially not the killing of innocent children.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "b8089720-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“One of them?” the woman says, hissing. She knows what you were going to stay, and just stopped short of saying.",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "bbd83cc0-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“A Kaara,” you say. Maybe she'll believe you weren’t going to call her a witch and forgive the slip-up.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "bf081ff0-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She slumps back in the chair, her fingers still glowing. She frowns, but doesn’t stand up or comment on your almost use of the wrong term.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "Nuetral",
+			"type": "Dialogue"
+		},
+		{
+			"id": "c220f8b0-ae44-11e8-8ee7-85824360fe06",
+			"Name": "Neutral 2",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 47.118858337402344,
+			"y": 390.2923583984375,
+			"Actions": [
+				{
+					"id": "dd54a000-ae44-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "d7347ab0-ae44-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "ca4a8290-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Here,” you say as you stumble forward until you reach your desk. You push aside some parchments until you find the lumen stone you’d been thinking about earlier. After you whisper the right word to it, its light spills across the room.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "ca9dd2b0-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Thank you,” the woman says as she lets her magic drops from her hands.“I’m not in much of a mood to use my magic.”",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "cae710b0-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She frowns as she says this, and stares at you for a moment, her eyes glazing over. She might be looking at you, but she isn’t seeing a thing. "
+				}
+			],
+			"title": "Neutral 2",
+			"type": "Dialogue"
+		},
+		{
+			"id": "d7347ab0-ae44-11e8-8ee7-85824360fe06",
+			"Name": "Neutral 3",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 44.92765426635742,
+			"y": 596.2652893066406,
+			"Actions": [
+				{
+					"id": "ee622a20-ae44-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "943e7020-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "e14eff20-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She’s young. At least five years younger then you, but probably more. No lines mark the soft flesh of her face and her cheeks hold a beautiful hint of pink. She’s a gorgeous woman, with her curling blond hair, her peachy skin, and her purple-blue eyes. She scowls, her brow wrinkling, and her mouth twists down into a frown."
+				},
+				{
+					"id": "e19e3090-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Beautiful when she’s pleased, frightening when she’s not."
+				},
+				{
+					"id": "e2052fc0-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Today has not been a good day,” she says",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "e2d8d370-ae44-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You step around your desk and fall into your seat. “Why don’t you tell me what I can do to help.”",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "New Node",
+			"type": "Dialogue"
+		},
+		{
+			"id": "f40f9070-ae44-11e8-8ee7-85824360fe06",
+			"Name": "Negative",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 386.5737609863281,
+			"y": 159.47305297851562,
+			"Actions": [
+				{
+					"id": "16056970-ae45-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "11744890-ae45-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "01467010-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“You’re a witch,” you say, your drunken tongue getting the best of you. You should know better than to use that term. Ever since the War of Three, witches were determined to distinguish themselves from the women who killed almost five-hundred innocent children.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "01acfa10-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "No, that term had a lot of awful connections, even now, one hundred years later."
+				},
+				{
+					"id": "0203a590-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "The woman jerks back from you, blinking, before she snaps her fingers and extinguishes the magical light."
+				},
+				{
+					"id": "0b2746e0-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Darkness envelops you once again."
+				}
+			],
+			"title": "Negative",
+			"type": "Dialogue"
+		},
+		{
+			"id": "11744890-ae45-11e8-8ee7-85824360fe06",
+			"Name": "Negative 2",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 386.5737609863281,
+			"y": 369.8284606933594,
+			"Actions": [
+				{
+					"id": "33313740-ae45-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "2dc4f8a0-ae45-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "177f1120-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“I apologize,” you say, stumbling for any reason to keep her here—you haven’t even learned yet what she wants.",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "17d6f520-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“I never should have considered a retired reader of the Queen would have interest in helping me and mine,” she hisses as she rises from the chair. She knows of your past, not that its a well kept secret. “I’ll take my gold somewhere else.”",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "18314a20-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Gold. A paying customer. The drink is gone from you within a beat of your fast pacing heart. “No, no,” you say as you stumble past her and further into the room, diving for the corner of your desk where you left your lumen stone. When you fingers grab it, you whisper the word to ignite it, and turn around to face the woman.\n\nShe stands at the door, one hand on the wooden frame."
+				},
+				{
+					"id": "4ab56b20-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“I’m a little deep in my cup,” you say. “My tongue got ahead of me. I apologize. I would be happy to help in any way I can.”",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "Negative 2",
+			"type": "Dialogue"
+		},
+		{
+			"id": "2dc4f8a0-ae45-11e8-8ee7-85824360fe06",
+			"Name": "Negative 3",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 388.76495361328125,
+			"y": 584.5662231445312,
+			"Actions": [
+				{
+					"id": "562a7680-ae45-11e8-8ee7-85824360fe06",
+					"Name": "New Action",
+					"Description": "",
+					"EndAt": "943e7020-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "3a18f250-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“Of course you would,” she snaps before wrapping her arms around herself. She stands like that for a moment, in front of the door, staring at you, her hands hugging her chest.",
+					"CharacterId": "539e3fa0-ae40-11e8-8ee7-85824360fe06"
+				},
+				{
+					"id": "3dab19c0-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "She’s young. At least five years younger then you, but probably more. No lines mark the soft flesh of her face and her cheeks hold a beautiful hint of pink. She’s a gorgeous woman, with her curling blond hair, her peachy skin, and her purple-blue eyes. She scowls, her brow wrinkling, and her mouth twists down into a frown."
+				},
+				{
+					"id": "3f87a1f0-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "Beautiful when she’s pleased, frightening when she’s not.\n"
+				},
+				{
+					"id": "42f837a0-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "You had better keep on your best behavior if you want to make this month’s rent."
+				},
+				{
+					"id": "4540c810-ae45-11e8-8ee7-85824360fe06",
+					"Speaker": "narrator",
+					"Text": "“What can I help you with?”",
+					"CharacterId": "5338c710-ae40-11e8-8ee7-85824360fe06"
+				}
+			],
+			"title": "Negative 3",
+			"type": "Dialogue"
+		}
+	],
+	"characters": [
+		{
+			"id": "narrator",
+			"Name": "Narrator",
+			"Description": "Narrator for the story"
+		},
+		{
+			"id": "5338c710-ae40-11e8-8ee7-85824360fe06",
+			"Name": "Detective",
+			"Description": ""
+		},
+		{
+			"id": "539e3fa0-ae40-11e8-8ee7-85824360fe06",
+			"Name": "Shira",
+			"Description": ""
+		}
+	]
+}

@@ -1,0 +1,162 @@
+{
+	"nodes": [
+		{
+			"id": "1",
+			"Name": "Start Node",
+			"NodeType": "Start",
+			"Description": "Where the game starts",
+			"Conversation": [
+				{
+					"id": "1",
+					"Speaker": "narrator",
+					"Text": "Choose the light side",
+					"CharacterId": "dbee39f0-a9a9-11e8-be9f-dd4125587de6"
+				},
+				{
+					"id": "1e830e80-a9aa-11e8-be9f-dd4125587de6",
+					"Speaker": "narrator",
+					"Text": "Choose the dark side",
+					"CharacterId": "e0bb0440-a9a9-11e8-be9f-dd4125587de6"
+				}
+			],
+			"x": -39.33333444595337,
+			"y": -150.66667437553406,
+			"Actions": [
+				{
+					"Id": "apples",
+					"EndAt": "e868f580-a9a9-11e8-be9f-dd4125587de6",
+					"Name": "Light",
+					"Description": "End the game"
+				},
+				{
+					"id": "13660e30-a9aa-11e8-be9f-dd4125587de6",
+					"Name": "Dark",
+					"Description": "",
+					"EndAt": "fc114ec0-a9a9-11e8-be9f-dd4125587de6"
+				}
+			],
+			"title": "Start Node",
+			"type": "Start"
+		},
+		{
+			"id": "2",
+			"Name": "End Node",
+			"NodeType": "End",
+			"Description": "Where the game ends",
+			"Conversation": [
+				{
+					"id": "1",
+					"Speaker": "narrator",
+					"Text": "Goodbye World"
+				}
+			],
+			"x": -22.66666603088379,
+			"y": 214.66667938232422,
+			"Actions": [],
+			"title": "End Node",
+			"type": "End"
+		},
+		{
+			"id": "e868f580-a9a9-11e8-be9f-dd4125587de6",
+			"Name": "Light Side",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": -277.33332324028015,
+			"y": 38.66666603088379,
+			"Actions": [
+				{
+					"id": "e97c8860-a9a9-11e8-be9f-dd4125587de6",
+					"Name": "End a",
+					"Description": "",
+					"EndAt": "2"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "f3d2dd50-a9a9-11e8-be9f-dd4125587de6",
+					"Speaker": "narrator",
+					"Text": "The player chose the light side"
+				}
+			],
+			"title": "New Node",
+			"type": "Dialogue"
+		},
+		{
+			"id": "fc114ec0-a9a9-11e8-be9f-dd4125587de6",
+			"Name": "Dark Side",
+			"Description": "",
+			"NodeType": "Dialogue",
+			"Text": "",
+			"x": 189.9181365966797,
+			"y": 33.695152282714844,
+			"Actions": [
+				{
+					"id": "04e3c2d0-a9aa-11e8-be9f-dd4125587de6",
+					"Name": "End",
+					"Description": "e",
+					"EndAt": "2"
+				}
+			],
+			"Conversation": [
+				{
+					"id": "015c70d0-a9aa-11e8-be9f-dd4125587de6",
+					"Speaker": "narrator",
+					"Text": "The player choose the dark side"
+				}
+			],
+			"title": "New Node",
+			"type": "Dialogue"
+		}
+	],
+	"characters": [
+		{
+			"id": "narrator",
+			"Name": "Narrator",
+			"Description": "Narrator for the story"
+		},
+		{
+			"id": "dbee39f0-a9a9-11e8-be9f-dd4125587de6",
+			"Name": "Luke",
+			"Description": "Luke skywalker"
+		},
+		{
+			"id": "e0bb0440-a9a9-11e8-be9f-dd4125587de6",
+			"Name": "Darth Vader",
+			"Description": "Lord vader"
+		}
+	],
+	"gameState": [
+		{
+			"id": "b79065f0-be13-11e8-b3c6-3dba72ca521f",
+			"key": "Light Side Points",
+			"defaultValue": 0,
+			"type": "int",
+			"enumValues": []
+		},
+		{
+			"id": "b7d38970-be13-11e8-b3c6-3dba72ca521f",
+			"key": "Dark Side Points",
+			"defaultValue": 0,
+			"type": "int",
+			"enumValues": []
+		},
+		{
+			"id": "b8143bf0-be13-11e8-b3c6-3dba72ca521f",
+			"key": "Has Lightsaber",
+			"defaultValue": 0,
+			"type": "bool",
+			"enumValues": []
+		},
+		{
+			"id": "b87a29b0-be13-11e8-b3c6-3dba72ca521f",
+			"key": "Choice Made",
+			"defaultValue": 0,
+			"type": "enum",
+			"enumValues": [
+				"Saved Character",
+				"Killed Character"
+			]
+		}
+	]
+}
